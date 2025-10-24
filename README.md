@@ -8,7 +8,7 @@ This repository accompanies our IEEE *Signal Processing Letters* submission:
 
 ---
 
-## 🔍 Overview
+## Overview
 This work proposes a **Physics-Informed Multilayer Perceptron (PINN-MLP)** framework for robust indoor localization using Wi-Fi RSS fingerprints.  
 A **reproducible RSS simulation platform** is developed to model access-point (AP) bias, correlated shadowing, and receiver sensitivity.
 
@@ -16,7 +16,7 @@ The proposed method integrates a **log-distance path-loss constraint** into coor
 
 ---
 
-## 🧠 Key Features
+## Key Features
 - Physics-informed loss term ensuring RSS–distance consistency  
 - Robust regression with Huber penalty and AP visibility mask  
 - Reproducible RSS simulator with configurable noise, AP bias, and path-loss jitter  
@@ -24,7 +24,7 @@ The proposed method integrates a **log-distance path-loss constraint** into coor
 
 ---
 
-## 📊 Experimental Results (Summary)
+## Experimental Results (Summary)
 - Minimum localization RMSE: **0.45 m** under non-uniform AP layouts  
 - Consistent performance across various noise levels and AP counts  
 - Validation on the public **UJIIndoorLoc** dataset confirming generalization  
